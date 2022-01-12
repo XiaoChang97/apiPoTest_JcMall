@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 20 11:29:10 CST 2021","Tue Jul 20 11:29:11 CST 2021","483","test","test_loginRegister","TestLoginRegister","","","test_login_01[15200000001-111111.]",""
+"passed","Tue Jul 20 11:29:11 CST 2021","Tue Jul 20 11:29:12 CST 2021","1054","test","test_order","TestOrder","","","test_payOrder_01",""
+"failed","Tue Jul 20 11:29:11 CST 2021","Tue Jul 20 11:29:11 CST 2021","-1","test","test_loginRegister","TestLoginRegister","","","test_login_02[15200000001-1111111]",""
+"passed","Tue Jul 20 11:29:13 CST 2021","Tue Jul 20 11:29:14 CST 2021","1362","test","test_shopCar","TestShopCar","","","test_dellGoods_shopCar_02",""
+"passed","Tue Jul 20 11:29:12 CST 2021","Tue Jul 20 11:29:13 CST 2021","1032","test","test_shopCar","TestShopCar","","","test_addGoods_shopCar_01",""

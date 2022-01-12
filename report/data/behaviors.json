@@ -1,0 +1,102 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试注册登录接口",
+    "children" : [ {
+      "name" : "用正确的账号登录",
+      "children" : [ {
+        "name" : "test_login_01[15200000001-111111.]",
+        "uid" : "3044d74ba73bbf91",
+        "parentUid" : "ec37a1b1a3439ca2e960b47b64562ee4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751750752,
+          "stop" : 1626751751235,
+          "duration" : 483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'15200000001'", "'111111.'" ]
+      } ],
+      "uid" : "ec37a1b1a3439ca2e960b47b64562ee4"
+    }, {
+      "name" : "用错误的密码登录",
+      "children" : [ {
+        "name" : "test_login_02[15200000001-1111111]",
+        "uid" : "86b4ee0605aa5a1b",
+        "parentUid" : "373b7384b46fe022b5d2bcf837a86a05",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626751751241,
+          "stop" : 1626751751240,
+          "duration" : -1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'15200000001'", "'1111111'" ]
+      } ],
+      "uid" : "373b7384b46fe022b5d2bcf837a86a05"
+    } ],
+    "uid" : "deac1c323bf5e8c7cc2e45370de0ac7b"
+  }, {
+    "name" : "测试订单",
+    "children" : [ {
+      "name" : "购买商品生成一条订单",
+      "children" : [ {
+        "name" : "test_payOrder_01",
+        "uid" : "a8b3db875fdd7460",
+        "parentUid" : "da3092b0ce0edeb8d5bafeae5d3fb606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751751421,
+          "stop" : 1626751752475,
+          "duration" : 1054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da3092b0ce0edeb8d5bafeae5d3fb606"
+    } ],
+    "uid" : "cf2fa53bf7f0d3bb507cc99010b8fe02"
+  }, {
+    "name" : "测试购物车",
+    "children" : [ {
+      "name" : "把商品加入购物车",
+      "children" : [ {
+        "name" : "test_addGoods_shopCar_01",
+        "uid" : "ee60a6ee33a6463a",
+        "parentUid" : "9a1b3f0af0c6dc4ee329df01d3563882",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751752484,
+          "stop" : 1626751753516,
+          "duration" : 1032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a1b3f0af0c6dc4ee329df01d3563882"
+    }, {
+      "name" : "把商品从购物车中删除",
+      "children" : [ {
+        "name" : "test_dellGoods_shopCar_02",
+        "uid" : "767dda330d3c2bd",
+        "parentUid" : "5cefa185fa8761ce2c9eb14c91fa33c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751753521,
+          "stop" : 1626751754883,
+          "duration" : 1362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5cefa185fa8761ce2c9eb14c91fa33c7"
+    } ],
+    "uid" : "5b8c91f4bebac198f403577734097df9"
+  } ]
+}

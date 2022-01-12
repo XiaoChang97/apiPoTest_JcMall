@@ -1,0 +1,86 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_loginRegister",
+      "children" : [ {
+        "name" : "test_login_01[15200000001-111111.]",
+        "uid" : "3044d74ba73bbf91",
+        "parentUid" : "a74067a499478331e1b75eff46899bc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751750752,
+          "stop" : 1626751751235,
+          "duration" : 483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'15200000001'", "'111111.'" ]
+      }, {
+        "name" : "test_login_02[15200000001-1111111]",
+        "uid" : "86b4ee0605aa5a1b",
+        "parentUid" : "a74067a499478331e1b75eff46899bc1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626751751241,
+          "stop" : 1626751751240,
+          "duration" : -1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'15200000001'", "'1111111'" ]
+      } ],
+      "uid" : "a74067a499478331e1b75eff46899bc1"
+    }, {
+      "name" : "test_order",
+      "children" : [ {
+        "name" : "test_payOrder_01",
+        "uid" : "a8b3db875fdd7460",
+        "parentUid" : "cee858ecefe416985e64b87eb311ee19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751751421,
+          "stop" : 1626751752475,
+          "duration" : 1054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cee858ecefe416985e64b87eb311ee19"
+    }, {
+      "name" : "test_shopCar",
+      "children" : [ {
+        "name" : "test_addGoods_shopCar_01",
+        "uid" : "ee60a6ee33a6463a",
+        "parentUid" : "820d4b29a8b382a731a207e9cc2df9b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751752484,
+          "stop" : 1626751753516,
+          "duration" : 1032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dellGoods_shopCar_02",
+        "uid" : "767dda330d3c2bd",
+        "parentUid" : "820d4b29a8b382a731a207e9cc2df9b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626751753521,
+          "stop" : 1626751754883,
+          "duration" : 1362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "820d4b29a8b382a731a207e9cc2df9b4"
+    } ],
+    "uid" : "d662795e8d349f9b5595bf62f43ea7ae"
+  } ]
+}

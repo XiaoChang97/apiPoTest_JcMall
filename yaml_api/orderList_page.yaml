@@ -1,0 +1,9 @@
+order_list: # 订单列表
+  api: /api/order/lists
+  method: get
+  headers: {"token":$token}
+  params: ~
+  data: ~
+  json: ~
+
+

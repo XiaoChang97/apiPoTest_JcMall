@@ -1,0 +1,15 @@
+login:
+  api: /api/account/login
+  method: post
+  headers: ~
+  params: ~
+  data: ~
+  json: {"account": $account,"password": $password,"client": 5}
+
+register:
+  api: /api/account/register
+  method: post
+  headers: ~
+  params: ~
+  data: ~
+  json: {"mobile":$mobile,"password":$password,"code":"","client":5}

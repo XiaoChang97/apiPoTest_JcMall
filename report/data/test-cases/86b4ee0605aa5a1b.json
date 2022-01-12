@@ -1,0 +1,134 @@
+{
+  "uid" : "86b4ee0605aa5a1b",
+  "name" : "test_login_02[15200000001-1111111]",
+  "fullName" : "test.test_loginRegister.TestLoginRegister#test_login_02",
+  "historyId" : "664a61fbf50a833c317512019294682e",
+  "time" : {
+    "start" : 1626751751241,
+    "stop" : 1626751751240,
+    "duration" : -1
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest\\test_loginRegister.py:27: AssumptionFailure\n>>\tpytest.assume(msg == '密码错误')\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               test\\test_loginRegister.py:27: AssumptionFailure\nE               >>\tpytest.assume(msg == '密码错误')\nE               AssertionError: assert False\n\nD:\\Program Files (x86)\\Python39\\lib\\site-packages\\six.py:702: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1626751750751,
+      "stop" : 1626751750751,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1626751750751,
+      "stop" : 1626751750751,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1626751750751,
+      "stop" : 1626751750751,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1626751751241,
+      "stop" : 1626751751241,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用错误的密码登录"
+  }, {
+    "name" : "feature",
+    "value" : "测试注册登录接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginRegister"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginRegister"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5J4VKD8M"
+  }, {
+    "name" : "thread",
+    "value" : "7532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_loginRegister"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "mobile",
+    "value" : "'15200000001'"
+  }, {
+    "name" : "password",
+    "value" : "'1111111'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "86b4ee0605aa5a1b.json",
+  "parameterValues" : [ "'15200000001'", "'1111111'" ]
+}

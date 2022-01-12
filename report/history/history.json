@@ -1,0 +1,98 @@
+{
+  "a230b0ffc98e563ae8ea49612bd8d384" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8b3db875fdd7460",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626751751421,
+        "stop" : 1626751752475,
+        "duration" : 1054
+      }
+    } ]
+  },
+  "ec243def1b09a525480ef14de252d986" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "767dda330d3c2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626751753521,
+        "stop" : 1626751754883,
+        "duration" : 1362
+      }
+    } ]
+  },
+  "973749ac1fcf29eb65aa650c38828ae8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3044d74ba73bbf91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626751750752,
+        "stop" : 1626751751235,
+        "duration" : 483
+      }
+    } ]
+  },
+  "370ca2b40369f52e364ad715de3f6271" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee60a6ee33a6463a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626751752484,
+        "stop" : 1626751753516,
+        "duration" : 1032
+      }
+    } ]
+  },
+  "664a61fbf50a833c317512019294682e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86b4ee0605aa5a1b",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest\\test_loginRegister.py:27: AssumptionFailure\n>>\tpytest.assume(msg == '密码错误')\nAssertionError: assert False",
+      "time" : {
+        "start" : 1626751751241,
+        "stop" : 1626751751240,
+        "duration" : -1
+      }
+    } ]
+  }
+}

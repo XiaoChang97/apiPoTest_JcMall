@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest\\test_loginRegister.py:27: AssumptionFailure\n>>\tpytest.assume(msg == '密码错误')\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_login_02[15200000001-1111111]",
+        "uid" : "86b4ee0605aa5a1b",
+        "parentUid" : "77141c939de6280f762273d6c2f876e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626751751241,
+          "stop" : 1626751751240,
+          "duration" : -1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'15200000001'", "'1111111'" ]
+      } ],
+      "uid" : "77141c939de6280f762273d6c2f876e4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_loginRegister",
+      "children" : [ {
+        "name" : "TestLoginRegister",
+        "children" : [ {
+          "name" : "test_login_01[15200000001-111111.]",
+          "uid" : "3044d74ba73bbf91",
+          "parentUid" : "7abf6c84dc6dbff19a0ff1469b14a1af",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626751750752,
+            "stop" : 1626751751235,
+            "duration" : 483
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'15200000001'", "'111111.'" ]
+        }, {
+          "name" : "test_login_02[15200000001-1111111]",
+          "uid" : "86b4ee0605aa5a1b",
+          "parentUid" : "7abf6c84dc6dbff19a0ff1469b14a1af",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626751751241,
+            "stop" : 1626751751240,
+            "duration" : -1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'15200000001'", "'1111111'" ]
+        } ],
+        "uid" : "7abf6c84dc6dbff19a0ff1469b14a1af"
+      } ],
+      "uid" : "31663e196cb8923d6a7ca4fa811bbfa4"
+    }, {
+      "name" : "test_order",
+      "children" : [ {
+        "name" : "TestOrder",
+        "children" : [ {
+          "name" : "test_payOrder_01",
+          "uid" : "a8b3db875fdd7460",
+          "parentUid" : "11716ecc0050b8a942d6fdb895b212bd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626751751421,
+            "stop" : 1626751752475,
+            "duration" : 1054
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "11716ecc0050b8a942d6fdb895b212bd"
+      } ],
+      "uid" : "a2239522b0e6c54ce32ccd2a8a8dd910"
+    }, {
+      "name" : "test_shopCar",
+      "children" : [ {
+        "name" : "TestShopCar",
+        "children" : [ {
+          "name" : "test_addGoods_shopCar_01",
+          "uid" : "ee60a6ee33a6463a",
+          "parentUid" : "c0e81fd14f8344fa7a5880da5b9eb31d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626751752484,
+            "stop" : 1626751753516,
+            "duration" : 1032
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_dellGoods_shopCar_02",
+          "uid" : "767dda330d3c2bd",
+          "parentUid" : "c0e81fd14f8344fa7a5880da5b9eb31d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626751753521,
+            "stop" : 1626751754883,
+            "duration" : 1362
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c0e81fd14f8344fa7a5880da5b9eb31d"
+      } ],
+      "uid" : "1873888d803c9468cad75f3453fb9b51"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ]
+}

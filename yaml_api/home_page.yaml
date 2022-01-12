@@ -1,0 +1,48 @@
+goods_category: # 首页商品分类接口
+  api: /api/goods_category/lists
+  method: get
+  headers: {"token":$token}
+  params: {"client":2}
+  data: ~
+  json: ~
+
+commonData: # 首页公共部分接口
+  api: /api/pc/commonData
+  method: get
+  headers: {"token":$token}
+  params: ~
+  data: ~
+  json: ~
+
+index: # 首页商品索引列表接口
+  api: /api/pc/index
+  method: get
+  headers: { "token": $token }
+  params: ~
+  data: ~
+  json: ~
+
+getGoodsDetail: # 首页订单详情接口
+  api: /api/goods/getGoodsDetail
+  method: get
+  headers: { "token":$token }
+  params: {"id":$id}
+  data: ~
+  json: ~
+
+searchGoodsList:  # 首页商品搜索接口
+  api: /api/pc/goodsList
+  method: get
+  headers: { "token": $token }
+  params: { "page_size":20,"name":$name }
+  data: ~
+  json: ~
+
+shopCarList: # 首页购物车接口
+  api: /api/cart/lists
+  method: get
+  headers: { "token": $token }
+  params: ~
+  data: ~
+  json: ~
+

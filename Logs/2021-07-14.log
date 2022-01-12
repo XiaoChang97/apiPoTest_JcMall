@@ -1,0 +1,5 @@
+2021-07-14 22:34:34,685 - base_api.py:[57] - [ERROR] - 读取YAML文件出错::[Errno 2] No such file or directory: '..\\yaml_api\\goodsDetail_page.yaml'
+2021-07-14 22:35:29,782 - base_api.py:[57] - [ERROR] - 读取YAML文件出错::[Errno 2] No such file or directory: '.\\yaml_api\\goodsDetail_page.yaml'
+2021-07-14 22:37:16,104 - base_api.py:[57] - [ERROR] - 读取YAML文件出错::[Errno 2] No such file or directory: '..\\yaml_api\\goodsDetail_page.yaml'
+2021-07-14 22:37:33,495 - base_api.py:[51] - [INFO] - 读取YAML文件::../yaml_api/goodsDetail_page.yaml::请求的接口名称::goodsDetail_orderBuy::传入接口参数::{'token': 'e478da1a76b45472142c2b1eb9600640', 'goodsId': 4}::接口请求参数api_datas::{'api': '/api/order/buy', 'method': 'post', 'headers': {'token': 'e478da1a76b45472142c2b1eb9600640'}, 'params': None, 'data': None, 'json': {'action': 'info', 'goods': [{'item_id': '4', 'num': 1}]}}
+2021-07-14 22:37:33,606 - base_api.py:[54] - [INFO] - 接口::/api/order/buy::响应数据为::{'status_code': 200, 'content': {'code': -1, 'msg': '会话失效，请重新登录', 'data': [], 'show': 1, 'time': '0.030131'}}

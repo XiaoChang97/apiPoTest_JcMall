@@ -1,0 +1,18 @@
+goodsDetail_orderBuy: # 商品详情立即购买接口
+  api: /api/order/buy
+  method: post
+  headers: {"token":$token}
+  params: ~
+  data: ~
+  json: {"action":"info","goods":[{"item_id":$goodsId,"num":1}]}
+
+goodsDetail_cartAdd: # 商品详情加入购物车接口
+  api: /api/cart/add
+  method: post
+  headers: {"token":$token}
+  params: ~
+  data: ~
+  json: {"item_id":$goodsId,"goods_num":1}
+
+
+

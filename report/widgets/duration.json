@@ -1,0 +1,51 @@
+[ {
+  "uid" : "3044d74ba73bbf91",
+  "name" : "test_login_01[15200000001-111111.]",
+  "time" : {
+    "start" : 1626751750752,
+    "stop" : 1626751751235,
+    "duration" : 483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8b3db875fdd7460",
+  "name" : "test_payOrder_01",
+  "time" : {
+    "start" : 1626751751421,
+    "stop" : 1626751752475,
+    "duration" : 1054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86b4ee0605aa5a1b",
+  "name" : "test_login_02[15200000001-1111111]",
+  "time" : {
+    "start" : 1626751751241,
+    "stop" : 1626751751240,
+    "duration" : -1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "767dda330d3c2bd",
+  "name" : "test_dellGoods_shopCar_02",
+  "time" : {
+    "start" : 1626751753521,
+    "stop" : 1626751754883,
+    "duration" : 1362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee60a6ee33a6463a",
+  "name" : "test_addGoods_shopCar_01",
+  "time" : {
+    "start" : 1626751752484,
+    "stop" : 1626751753516,
+    "duration" : 1032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

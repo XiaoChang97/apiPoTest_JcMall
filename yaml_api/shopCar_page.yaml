@@ -1,0 +1,9 @@
+cart_del: # 购物车删除商品
+  api: /api/cart/del
+  method: post
+  headers: {"token":$token}
+  params: ~
+  data: ~
+  json: {"cart_id":$cart_id}
+
+

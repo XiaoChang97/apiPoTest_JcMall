@@ -1,0 +1,11 @@
+login:
+  account: "15200000001"
+  password: "111111."
+
+Email:
+  mail_host: "smtp.qq.com"
+  mail_user: "372109913"
+  mail_pass: "fyrwqnzwikyicbdg"
+  sender: '372109913@qq.com'
+  receives: ['smilepassed@163.com']
+

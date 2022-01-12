@@ -1,0 +1,31 @@
+addAddress: # 确认订单页面添加地址接口
+  api: /api/user_address/add
+  method: post
+  headers: {"token":$token}
+  params: ~
+  data: ~
+  json: {"is_default":true,"contact":$name,"telephone":$phone,"province_id":310000,"city_id":310100,"district_id":310104,"address":$address}
+
+confirmOrder_buy: # 确认订单页面提交订单接口
+  api: /api/order/buy
+  method: post
+  headers: {"token":$token}
+  params: ~
+  data: ~
+  json: {"action":"submit","goods":[{"item_id":$goodsId,"num":1}],"use_integral":0,"address_id":"","remark":""}
+
+cofirmOrder_detail: # 确认订单支付时订单详情接口
+  api: /api/order/detail
+  method: get
+  headers: { "token": $token }
+  params: { "id":$id }
+  data: ~
+  json: ~
+
+payment_pcPrepay: # 确认订单支付接口(pay_way:3 余额支付）
+  api: /api/payment/pcPrepay
+  method: post
+  headers: { "token": $token }
+  params: ~
+  data: ~
+  json: {"order_id":$order_id,"pay_way":$pay_way,"order_source":5}
